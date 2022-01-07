@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+* {box-sizing: border-box}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    background-color: #99a0a8;
+}
+
+/*menunav css*/ 
+.menunav {
+  width: 100%;
+  background-color: #65696e;
+  overflow: auto;
+}
+
+.menunav a {
+  float: left;
+  padding: 15px;
+  color: #f0f3f7;
+  text-decoration: none;
+  font-size: 20px;
+  width: 25%;
+  text-align: center;
+}
+
+.menunav a.active {
+  background-color: #37547d;
+}
+
+.menunav a:hover {
+  background-color: #37547d;
+}
+
+@media screen and (max-width: 500px) {
+  .menunav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+/*gym image*/
+.gymimage {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.gymname {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f0f3f7;
+  font-size: 50px;
+}
+
+/*class boxes*/
+
+.classcolumn {
+  float: left;
+  width: 50.0%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .teamcolumn {
+    width: 100%;
+    display: block;
+  }
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.classbookbutton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  text-decoration: none!important;
+  background-color: #37547d;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.classbookbutton:hover {
+  background-color: #65696e;
+  text-decoration: none;
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #37547d;
+  color: #f0f3f7;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+
+td,tr{
+  text-align: left;
+  padding: 8px;
+}
+
+/*text styling*/
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #37547d;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #37547d;
+}
+
+p {
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+li {
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+
+/*text boxes*/
+
+.textbox {
+  border: 1px solid gray;
+  padding: 8px;
+}
+</style>
+<body>
+<div class="menunav">
+  <a class="active" href="#home">Home</a> 
+  <a href="#classes">Classes</a> 
+  <a href="#shop">Shop</a> 
+  <a href="#contact">Contact</a>
+</div>
+<br>
+<div class="gymimage">
+  <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80" alt="Empty Gym with Treadmills" style="width:100%;">
+  <div class="gymname">
+    <strong>CITY GYM</strong>
+  </div>
+</div>
+<br>
+<div>
+  <h1>classes</h1>
+</div>
+<div class="textbox">
+  <h2>Welcome!</h2>
+  <p>We offer a range of classes, and we're hoping to add more as our client base expands!</p>
+</div>
+<br>
+<div class="textbox">
+<div class="row">
+  <div class="classcolumn">
+    <div class="shadow">
+      <img src="https://images.unsplash.com/flagged/photo-1566062284755-a888f33feba3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Kickboxing" style="width:100%">
+      <div class="container">
+        <h2>Kickboxing</h2>
+        <p>Monday -Friday</p>
+        <p>7.30am-8.30am</p>
+        <p>9am-10am</p>
+        <p>A class focusing on technique and strength, exploring the ways self defence can keep you fit. Opportunities to gain belts and take part in tournaments. Suitable for children aged 13+ and for all adults, regardless of fitness level. Taught by Charlotte. </p>
+        <div>
+          <p><button class="classbookbutton">
+             <a href="#contactus">Book Now</a></button></p></div>
+        </div>
+      </div>
+    </div>
+    <div class="classcolumn">
+      <div class="shadow">
+        <img src="https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Yoga" style="width:100%">
+        <div class="container">
+        <h2>Yoga</h2>
+        <p>Monday-Friday</p>
+        <p>11am-12pm</p>
+        <p>12.30pm-1.30pm</p>
+        <p>A class focusing on focus, balance and mindfulness, and exploring how keeping check with our mental health can positively impact our physical wellbeing. Suitable for all ages. Taught by Charlotte. </p>
+        <div>
+          <p><button class="classbookbutton">
+          <a href="#contactus">Book Now</a></button></p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="textbox">
+  <div class="row">
+    <div class="classcolumn">
+      <div class="shadow">
+        <img src="https://images.unsplash.com/flagged/photo-1566062284755-a888f33feba3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="HiIT" style="width:100%">
+        <div class="container">
+          <h2>High Impact Interval Training</h2>
+          <p>Monday-Friday</p>
+          <p>2.30pm-3.30pm</p>
+          <p>4pm-5pm</p>
+          <p>A class for those with a serious thirst for Impact! A steady mix of cardio and Weights, a good state of mind is necessary for these classes. Recommended for adults aged 18-60 with a moderate level of fitness. Taught by Duncan. </p>
+          <div>
+            <p><button class="classbookbutton">
+            <a href="#contactus">Book Now</a></button></p></div>
+          </div>
+        </div>
+      </div>
+  <div class="classcolumn">
+    <div class="shadow">
+      <img src="https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Weights" style="width:100%">
+      <div class="container">
+        <h2>Weights & Strength</h2>
+        <p>Monday-Friday</p>
+        <p>6pm-7pm</p>
+        <p>7.30pm-8.30pm</p>
+        <p>A class for beginners focusing on losing mass to gain muscle, and keep muscle Where you need it to be! Suitable for adults aged 18+. Taught by Duncan. </p>
+        <div>
+          <p><button class="classbookbutton">
+          <a href="#contactus">Book Now</a></button></p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+<br>
+<footer>
+  <table>
+  <tr>
+    <td>citygymcardiff@citygymcardiff.com</td>
+    <td><a href="#https://www.facebook.com" class="fa fa-facebook"></a></td>
+  </tr>
+  <tr>
+    <td>02920 123456</td>
+    <td><a href="#https://www.twitter.com" class="fa fa-twitter"></a></td>
+  </tr>
+  <p>
+  Copyright City Gym 2022
+  </p>
+</footer>
+
+</body>
+</html> 
