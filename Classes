@@ -205,7 +205,7 @@ li {
 <div class="row">
   <div class="classcolumn">
     <div class="shadow">
-      <img src="https://images.unsplash.com/flagged/photo-1566062284755-a888f33feba3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Kickboxing" style="width:100%">
+      <img src="https://images.unsplash.com/photo-1566241231446-922b70e866b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Kickboxing" style="width:100%">
       <div class="container">
         <h2>Kickboxing</h2>
         <p>Monday -Friday</p>
@@ -220,7 +220,7 @@ li {
     </div>
     <div class="classcolumn">
       <div class="shadow">
-        <img src="https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Yoga" style="width:100%">
+        <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Yoga" style="width:100%">
         <div class="container">
         <h2>Yoga</h2>
         <p>Monday-Friday</p>
@@ -238,7 +238,7 @@ li {
   <div class="row">
     <div class="classcolumn">
       <div class="shadow">
-        <img src="https://images.unsplash.com/flagged/photo-1566062284755-a888f33feba3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="HiIT" style="width:100%">
+        <img src="https://images.unsplash.com/photo-1434596922112-19c563067271?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="HiIT" style="width:100%">
         <div class="container">
           <h2>High Impact Interval Training</h2>
           <p>Monday-Friday</p>
@@ -253,7 +253,7 @@ li {
       </div>
   <div class="classcolumn">
     <div class="shadow">
-      <img src="https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Weights" style="width:100%">
+      <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80" alt="Weights" style="width:100%">
       <div class="container">
         <h2>Weights & Strength</h2>
         <p>Monday-Friday</p>
