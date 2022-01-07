@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+* {box-sizing: border-box}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    background-color: #99a0a8;
+}
+
+/*menunav css*/ 
+.menunav {
+  width: 100%;
+  background-color: #65696e;
+  overflow: auto;
+}
+
+.menunav a {
+  float: left;
+  padding: 15px;
+  color: #f0f3f7;
+  text-decoration: none;
+  font-size: 20px;
+  width: 25%;
+  text-align: center;
+}
+
+.menunav a.active {
+  background-color: #37547d;
+}
+
+.menunav a:hover {
+  background-color: #37547d;
+}
+
+@media screen and (max-width: 500px) {
+  .menunav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+/*gym image*/
+.gymimage {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.gymname {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f0f3f7;
+  font-size: 50px;
+}
+
+/*class boxes*/
+
+.shopcolumn {
+  float: left;
+  width: 50.0%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .teamcolumn {
+    width: 100%;
+    display: block;
+  }
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #37547d;
+  color: #f0f3f7;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+
+td,tr{
+  text-align: left;
+  padding: 8px;
+}
+
+/*text styling*/
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #37547d;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #37547d;
+}
+
+p {
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+li {
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+
+/*text boxes*/
+
+.textbox {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+
+</style>
+<body>
+
+<div class="menunav">
+  <a href="#home">Home</a> 
+  <a href="#classes">Classes</a> 
+  <a class="active" href="#shop">Shop</a> 
+  <a href="#contact">Contact</a>
+</div>
+
+<br>
+
+<div class="gymimage">
+  <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80" alt="Empty Gym with Treadmills" style="width:100%;">
+  <div class="gymname">
+  <strong>CITY GYM
+  </strong></div>
+</div>
+
+<br>
+
+<div>
+<h1>Shop</h1>
+</div>
+
+<div class="textbox">
+  <h2>Memberships</h2>
+  <p>Please see below a list of all our memberships. Memberships are currently unable to be processed via the webiste, so please speak to a member of staff at the Gym for more information. These memberships will be taken via direct debit each month. </p>
+</div>
+
+<br>
+<div class="textbox">
+<div class="row">
+  <div class="shopcolumn">
+    <div class="shadow">
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="weights stacked at the gym" style="width:100%">
+      <div class="container">
+        <h2>Day</h2>
+        <h2>£5</h2>
+        <p>Maybe you just fancy a taster day, or want to introduce a friend to a class you've been attending. This pass gives you 1 days access to the gym and up to 2 classes. No locker access provided with Day Passes.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="shopcolumn">
+    <div class="shadow">
+      <img src="https://images.unsplash.com/photo-1546817372-628669db4655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80" alt="woman lifting weights" style="width:100%">
+      <div class="container">
+        <h2>Weekly</h2>
+        <h2>£20</h2>
+        <p>Perfect for those who attend a few classes per month, or are getting started at the gym. This pass gives you unlimited access to the gym and 2 classes a day, with locker access provided. </p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="textbox">
+<div class="row">
+  <div class="shopcolumn">
+    <div class="shadow">
+      <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Man lifting weights" style="width:100%">
+      <div class="container">
+        <h2>Monthly</h2>
+        <h2>£60</h2>
+        <p>If you find yourself attending multiple classes a month, this is the pass for you. This pass gives you access to the gym for 1 month, and 2 classes a day, with locker access provided. Diet Plan included.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="shopcolumn">
+    <div class="shadow">
+      <img src="https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80" alt="People working out at the gym" style="width:100%">
+      <div class="container">
+        <h2>Yearly</h2>
+        <h2>£550</h2>
+        <p>If you find yourself thinking 'I want the freedom to attend as many classes as possible', this is the membership for you. Unlimited access to the gym, unlimited classes, personal trainer lessons, diet plans and a private locker, this pass also gives you free access to the selected swimming pools in the city, plus free Tshirt, Hoodie and Water Bottle. </p>
+      </div>
+    </div>
+  </div>
+  </div>
+<br>
+<div class="textbox">
+  <h2>Merch</h2>
+  <p>Below is a list of all the current merch we have available for members, regulars and newcomers alike! All merch can be paid for and picked up in the Gym.</p>
+</div>
+
+<br>
+<div class="textbox">
+<div class="row">
+  <div class="shopcolumn">
+    <div class="shadow">
+      <img src="https://images.unsplash.com/photo-1516442719524-a603408c90cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80" alt="Man wearing branded tshirt" style="width:100%">
+      <div class="container">
+        <h2>T Shirts</h2>
+        <h2>£25</h2>
+        <p>Train in comfort and style with our branded City Gym T Shirts. These unisex shirts are crafted with a ribbed crew-neck collar and short sleeves, and made with patented technology designed to pull sweat away from the skin and help keep you dry and comfortable</p>
+        <p>Available in XS-XXL sizes</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="shopcolumn">
+    <div class="shadow">
+      <img src="https://images.unsplash.com/flagged/photo-1563203163-583914db4cf2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="man wearing branded hoodie" style="width:100%">
+      <div class="container">
+        <h2>Hoodie</h2>
+        <h2>£50</h2>
+        <p>Our City Gym branded Sportswear Hoodie offers a comfortable and stylish look. With a fleece lining for extra comfort and a hooded design for extra protection, these unisex hoodies are a must-have for working out. Our hoodie also features a kangaroo pocket for storage or to keep your hands warm</p>
+        <p>Available in XS-XXL sizes</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="textbox">
+<div class="row">
+  <div class="shopcolumn">
+    <div class="shadow">
+      <img src="https://images.unsplash.com/photo-1555661530-68c8e98db4e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="person wrapping hands" style="width:100%">
+      <div class="container">
+        <h2>Kickboxing Hand Wraps</h2>
+        <h2>£10</h2>
+        <p>We've partnered with a local gym to offer these unbranded Herringbone Handwraps. These wraps are essential for our Kickboxing classes, providing you with complete hand and wrist support. Featuring a secure thumb loop and an easy hook and loop fastening</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="shopcolumn">
+    <div class="shadow">
+      <img src="https://images.unsplash.com/photo-1517559421643-54bc2e32021c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="water bottle" style="width:100%">
+      <div class="container">
+        <h2>Water Bottle</h2>
+        <h2>£5</h2>
+        <p>This City Gym Barrel Water Bottle holds an impressive 2.2 litres of water to ensure you can keep hydrated during your exercise. The ergonomic handle is textured for superior grip, and toughened plastic to make sure it can withstand the hardest workouts</p>
+      </div>
+    </div>
+  </div>
+  </div>
+<footer>
+  <table>
+  <tr>
+    <td>citygymcardiff@citygymcardiff.com</td>
+    <td><a href="#https://www.facebook.com" class="fa fa-facebook"></a></td>
+  </tr>
+  <tr>
+    <td>02920 123456</td>
+    <td><a href="#https://www.twitter.com" class="fa fa-twitter"></a></td>
+  </tr>
+  <p>
+  Copyright City Gym 2022
+  </p>
+</footer>
+
+</body>
+</html> 
