@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+* {box-sizing: border-box}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    background-color: #99a0a8;
+}
+
+/*menunav css*/ 
+.menunav {
+  width: 100%;
+  background-color: #65696e;
+  overflow: auto;
+}
+
+.menunav a {
+  float: left;
+  padding: 15px;
+  color: #f0f3f7;
+  text-decoration: none;
+  font-size: 20px;
+  width: 25%;
+  text-align: center;
+}
+
+.menunav a.active {
+  background-color: #37547d;
+}
+
+.menunav a:hover {
+  background-color: #37547d;
+}
+
+@media screen and (max-width: 500px) {
+  .menunav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+/*gym image*/
+.gymimage {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.gymname {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f0f3f7;
+  font-size: 50px;
+}
+
+/*floating boxes*/
+
+.mapcolumn {
+  float: left;
+  width: 100.0%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .mapcolumn {
+    width: 100%;
+    display: block;
+  }
+}
+
+.contactcolumn {
+  float: left;
+  width: 50.0%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .contactcolumn {
+    width: 100%;
+    display: block;
+  }
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #37547d;
+  color: #f0f3f7;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+
+td,tr{
+  text-align: left;
+  padding: 8px;
+}
+
+/*text styling*/
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #37547d;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #37547d;
+}
+
+p {
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+li {
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+</style>
+<body>
+
+<div class="menunav">
+  <a href="#home">Home</a> 
+  <a href="#classes">Classes</a> 
+  <a href="#shop">Shop</a> 
+  <a class="active" href="#contact">Contact</a>
+</div>
+
+<br>
+
+<div class="gymimage">
+  <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80" alt="Empty Gym with Treadmills" style="width:100%;">
+  <div class="gymname">
+  <strong>CITY GYM
+  </strong></div>
+</div>
+
+<br>
+
+<div>
+<h1>Contact Us</h1>
+</div>
+
+<div class="textbox">
+  <h2>Opening Hours</h2>
+  <p>Outside of classes, we are open 6am-10pm Monday-Saturday, 10am-6pm Sunday for personal trainer sessions and general access.</p>
+</div>
+
+<br>
+
+<div class="textbox">
+<div class="row">
+  <div class="mapcolumn">
+    <div class="shadow">
+      <img src="https://map.getthedata.com/district/cf24-0eh.png" alt="Map of Cardiff" style="width:100%">
+      <div class="container">
+    <h2>Where are we?</h2>
+    <p>Find us just off Newport Road, Cardiff</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="textbox">
+  <h2>Directions</h2>
+</div>
+
+<div class="textbox">
+<div class="row">
+  <div class="contactcolumn">
+    <div class="shadow">
+      <img src="https://images.unsplash.com/photo-1581453846805-3c72cb48be71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80" alt="Car driving down street" style="width:100%">
+      <div class="container">
+    <h2>By Car</h2>
+    <p>Pop our postcode into your satnav and follow the directions. There's a customer car park just outside, free parking for members! Postcode: CF24 0EH</p>
+      </div>
+    </div>
+  </div>
+<div class="contactcolumn">
+    <div class="shadow">
+      <img src="https://images.unsplash.com/photo-1631125042734-f376e97de9a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Bus driving through Cardiff" style="width:100%">
+      <div class="container">
+    <h2>By Public Transport</h2>
+    <p>The Cardiff Queen Street Train Station is just a 3 minute walk around the corner. The number 500 bus stops right outside the gym!</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<br>
+
+<div class="textbox">
+  <h2>Contact Details</h2>
+</div>
+
+<div class="textbox">
+<div class="row">
+  <div class="contactcolumn">
+    <div class="shadow">
+      <div class="container">
+    <h2>Call us</h2>
+    <p>02920 123456</p>
+      </div>
+    </div>
+  </div>
+<div class="contactcolumn">
+    <div class="shadow">
+      <div class="container">
+    <h2>Email Us</h2>
+    <p>citygymcardiff@citygymcardiff.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="textbox">
+<div class="row">
+  <div class="contactcolumn">
+    <div class="shadow">
+      <div class="container">
+    <h2>Write to us</h2>
+    <p>City Gym Cardiff</p>
+    <p>Newport Road, Cardiff</p>
+    <p>CF24 0EH</p>
+      </div>
+    </div>
+  </div>
+<div class="contactcolumn">
+    <div class="shadow">
+      <div class="container">
+    <h2>Social Media</h2>
+    <p>Facebook Citygym Cardiff</p>
+    <p>Twitter CityGymCDF</p>
+    <p>Instagram CityGymCDF</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <table>
+  <tr>
+    <td>citygymcardiff@citygymcardiff.com</td>
+    <td><a href="#https://www.facebook.com" class="fa fa-facebook"></a></td>
+  </tr>
+  <tr>
+    <td>02920 123456</td>
+    <td><a href="#https://www.twitter.com" class="fa fa-twitter"></a></td>
+  </tr>
+  <p>
+  Copyright City Gym 2022
+  </p>
+</footer>
+
+</body>
+</html> 
