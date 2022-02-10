@@ -39,3 +39,14 @@
 <p>Tested boxes using CSS to float the boxes on the page, allows resizing of page </p>
 <p>Tested on both large screen, small screen and mobile device. Changed size of text for accessibility requirements.</p>
 <p>Checked links at the footer were the same as the details used in the contact boxes</p>
+<br>
+<h2>10th Feb<h2>
+<p>Renamed all code names to include non-capitalisations</p>
+<p>removed all css from individual pages and added to new pages</p>
+<p>Removed all comments</p>
+<br>
+<h2>Reasons and Causalities </h2>
+<p>The purpose of this website is to create a functioning site that provides a business with a link to their customers, both current and potential. Their customers will need to see the classes they have on offer as well as the people running these classes. Potential customers need a way of contacting these business owners and to see what functionality they have on offer.</p.
+<p>The colour scheme chosen is a mixture of light grey, navy blue and black. These colours match a more masculine approach, and are strong, matching the aesthetic of the gym environment. The font spacing has been chosen so people of different reading and education levels can understand the page, as directed by a code for dyslexia page. The images used match the aesthetic chosen, and I have tried to use the same images on free-image sites by the same author, to create a flow within the page.</p>
+<p>The location of Cardiff was used as I have an intimate knowledge of the area. I am a member of a gym and used this knowledge to bulk the idea of a newer gym which is family run<p>
+  
