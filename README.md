@@ -2,13 +2,13 @@
 [View the Live Project Here](https://lidsb001.github.io/City-Gym/)
 <div align="center">
   <a href="https://github.com/lidsb001/City-Gym">
-    <img src="https://user-images.githubusercontent.com/83977672/153727530-d786d4b8-b491-4a46-9527-6e9f4024b605.png" alt="responsive image of City Gym Website">
+    <img src="https://raw.githubusercontent.com/lidsb001/City-Gym/main/assets/images/Responsive_Image_of_City_Gym.png">
   </a>
 </div>
 
 ## Project Status
 - [x] Project Planned
-- [x] Overview written in [basics]()
+- [x] Overview written in [basics](https://github.com/lidsb001/City-Gym/blob/main/assets/Wireframe)
 - [x] Basic code written
 - [x] Updated code written
 - [x] Functionality Testing
@@ -39,7 +39,7 @@ The location of Cardiff was used as I have an intimate knowledge of the area. I 
     - Imagery
         - The images used evoke a sense of strength and power. By using images of people working out, it entices users to engage with the site and with the business. The large hero image at the top of the page shows an open space which is welcoming and appropriate regarding covid-related issues.
 - Wireframes
-    - [View the Wireframe Here](https://user-images.githubusercontent.com/83977672/153728550-cce4f657-cb32-4658-a7a9-644aa1ab4214.png)
+    - [View the Wireframe Here](https://raw.githubusercontent.com/lidsb001/City-Gym/main/assets/images/City_Gym_Wireframe.png)
 
 ## Features
 - Responsive on all device types and screen sizes
