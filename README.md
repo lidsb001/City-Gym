@@ -6,59 +6,101 @@
   </a>
 </div>
 
-## Table of Contents
-  
-- About the City Gym Project
-- Project Status
-- Contributors
-- License
-- Changelog
-- Acknowledgements
-
-## About the City Gym Project
-
-- Project Description
-- Built With 
-
-### Project Description
-The purpose of this website is to create a functioning site that provides a business with a link to their customers, both current and potential. Their customers will need to see the classes they have on offer as well as the people running these classes. Potential customers need a way of contacting these business owners and to see what functionality they have on offer.
-  
-The colour scheme chosen is a mixture of light grey, navy blue and black. These colours match a more masculine approach, and are strong, matching the aesthetic of the gym environment. The font spacing has been chosen so people of different reading and education levels can understand the page, as directed by a code for dyslexia page. The images used match the aesthetic chosen, and I have tried to use the same images on free-image sites by the same author, to create a flow within the page.
-  
-The location of Cardiff was used as I have an intimate knowledge of the area. I am a member of a gym and used this knowledge to bulk the idea of a newer gym which is family run.
-
-### Built With
-- HTML
-- CSS
-
 ## Project Status
 - [x] Project Planned
-- [x] Overview written in [basics](https://city-gym.lidsb001.repl.co/basics.html)
+- [x] Overview written in [basics]()
 - [x] Basic code written
 - [x] Updated code written
 - [x] Functionality Testing
 - [x] Beta Testing 
 - [ ] Project Deployed
 
+## User Experience (UX)
+The purpose of this website is to create a functioning site that provides a business with a link to their customers, both current and potential. Their customers will need to see the classes they have on offer as well as the people running these classes. Potential customers need a way of contacting these business owners and to see what functionality they have on offer.  
+  
+The location of Cardiff was used as I have an intimate knowledge of the area. I am a member of a gym and used this knowledge to bulk the idea of a newer gym which is family run.  
+- User Stories
+    - First Time Visitor Goals
+        - As a first time visitor, I want to easily navigate around the website
+        - As a first time visitor, I want to find the information that interests me quickly
+        - As a first time visitor, I want to see the contact details for the site easily
+    - Returning Visitor Goals
+        - As a returning visitor, I want to find updated class details quickly
+        - As a returning visitor, I want to see what items are available to buy
+        - As a returning visitor, I want to find out more about upgrading my membership
+    - Frequent User Goals
+        - As a frequent user, I want to be able to access my gyms social media quickly
+        - As a frequest user, I want to see people as determined as me in their fitness journey
+- Design
+    - Colour Scheme
+        - There are two main colours used in the site, grey and navy blue. Shades of these are used to match a more masculine approach, and are strong, matching the aesthetic of the gym environment.
+    - Typography
+        - The Ariel and Helvetica font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Both Ariel and Helvetica are easy to read and visually pleasing. The font spacing has been chosen so people of different reading and education levels can understand the page, as directed by a code for dyslexia page.
+    - Imagery
+        - The images used evoke a sense of strength and power. By using images of people working out, it entices users to engage with the site and with the business. The large hero image at the top of the page shows an open space which is welcoming and appropriate regarding covid-related issues.
+- Wireframes
+    - [View the Wireframe Here](https://user-images.githubusercontent.com/83977672/153728550-cce4f657-cb32-4658-a7a9-644aa1ab4214.png)
 
-## Contributors
-- Becca Lidstone 
-  - [GitHub](https://github.com/lidsb001/)
-  - [LinkedIn](https://uk.linkedin.com/in/becca-lidstone)
-- Mentor Assistance provided by Nishant Kumar
+## Features
+- Responsive on all device types and screen sizes
+- All external links open in new tabs for user ease
 
-### External Contributors
-External Fonts for Social Media Buttons provided by [Font Awesome](https://fontawesome.com/).
+## Technologies Used
 
-Markup Validation for site provided by [W3C Markup Validation Service](https://validator.w3.org/).
+### Languages Used
+- HTML5
+- CSS3
 
-Images provided by free image domain [UnSplash](https://unsplash.com/).
+### Frameworks, Libraries & Programs Used
+1. [Font Awesome](https://fontawesome.com/):  
+Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+2. [Git](https://git-scm.com/):  
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+3. [GitHub](https://github.com/):  
+GitHub is used to store the projects code after being pushed from Git.
+4. [Unsplash](https://unsplash.com/):  
+Unsplash was used for royalty free imaging, which has been credited further below
+5. [MockPlus](https://www.mockplus.com/free-wireframing-tool/):  
+Mockplus was used to create the wireframe for the site
+6. [GetTheData](https://www.getthedata.com/):
+Get The Data was used for the map images on the contact page
 
-Map image provided by [GetTheData](https://www.getthedata.com/)
+## Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+- [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flidsb001.github.io%2FCity-Gym%2F)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)- [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flidsb001.github.io%2FCity-Gym%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-## License
+### Testing User Stories from User Experience Section
+ 
+- First Time Visitor Goals
+    - As a first time visitor, I want to easily navigate around the website
+        - Upon entering the site, users are greeted with a menu banner that on larger screens takes up the entire width of the page. On smaller screens, this reduces in size. The menu is easy to navigate through and easy to understand. 
+        - Users have 3 options other than the home page to navigate through.
+    - As a first time visitor, I want to find the information that interests me quickly
+        - The menu is large and easy to see, due to the colour scheme. White text shows on the navy blue bachground of the buttons, making these links stand out.
+    - As a first time visitor, I want to see the contact details for the site easily
+        - Users are able to select the 'contact' section from every page, and can use the footer to access more contact details.
+- Returning Visitor Goals
+    - As a returning visitor, I want to find updated class details quickly
+        - Returning users can navigate to the 'classes' page within 1 click.
+    - As a returning visitor, I want to see what items are available to buy
+        - Returning users can navigate to the 'shop' page within 1 click.
+    - As a returning visitor, I want to find out more about upgrading my membership
+        - Returning users can navigate to the 'shop' page within 1 click.
+- Frequent User Goals
+    - As a frequent user, I want to be able to access my gyms social media quickly
+        - Frequent users are able to see large social media buttons on every page in the site, which take users to the social media selection. These links lead to the social media homepage. 
+    - As a frequest user, I want to see people as determined as me in their fitness journey
+        - Frequent users can see the owners, who they will recognise as frequenting the gym. The images used show people exercising and working out, pushing their limits. 
 
-Licensing can be found [here](https://city-gym.lidsb001.repl.co/LICENSE.txt)
+### Further Testing
+- The Website was tested on a variety of browsers, including Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The website was viewed on a variety of devices such as Windows Laptop, iPhone 12, Samsung Galaxy and Google Pixel. These were tested on the phones own internal browsers as well as Google Chrome and Google Chrome Beta.
+- A large amount of testing was done to ensure that all pages were linking correctly. Some links were found to be broken, due to renaming of the .html sites.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+#### Known Bugs
+- When viewed on smaller screens, the gym_image overlay text is too large for the screen to display properly. This has been scaled down as small as possible, however it cannot be scaled smaller as it would cause detriment to users with larger screens. The users this affect are users on screen smaller than 400px wide, which is a small number of users. 
 
 ## Changelog
 
@@ -84,8 +126,6 @@ Licensing can be found [here](https://city-gym.lidsb001.repl.co/LICENSE.txt)
 - Tested on both large screen, small screen and mobile device. Changed size of text for accessibility requirements.
 - Added class book button to jump to contact page, link not yet confirmed but planned
 - Tested entire page, text boxes were not resizing within page, split them into two areas so flow is continued but works within the space of the page
-
-
 - Copied menu nav, page styling and footer to Shop page
 - Reused floating boxes for shop, renamed so code is valid 
 - Used testing results to split the shop boxes into multiple parts
@@ -135,7 +175,52 @@ Licensing can be found [here](https://city-gym.lidsb001.repl.co/LICENSE.txt)
 - made media screen output for sizes 1000px or less to show containers top to bottom and site menu top to bottom for ease of visual use
 - Completed code validation through W3 validator
 
+## Deployment
+### GitHub Pages
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will be created.
+
+## Credits
+### Code
+- The large scale hero image was provided by [Unsplash](https://unsplash.com/photos/MsCgmHuirDo)
+- External Fonts for Social Media Buttons provided by [Font Awesome](https://fontawesome.com/).
+- Markup Validation for site provided by [W3C Markup Validation Service](https://validator.w3.org/).
+- Licensing can be found [here](https://city-gym.lidsb001.repl.co/LICENSE.txt).
+
+### Content
+- All content was written by the developer, Becca Lidstone 
+  - [GitHub](https://github.com/lidsb001/)
+  - [LinkedIn](https://uk.linkedin.com/in/becca-lidstone)
+
+### Media
+- All Images were chosen by the developer.
+- Most Images provided by free image domain [UnSplash](https://unsplash.com/).
+- Map image provided by [GetTheData](https://www.getthedata.com/)
+
 ## Acknowledgements
+
 Tobias Weatherburn, for providing beta testing  
 Nishant Kumar, for providing mentor Assistance  
 Sven Mieke, for [black and gray escalator inside building](https://unsplash.com/photos/MsCgmHuirDo)  
