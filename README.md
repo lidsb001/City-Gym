@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/lidsb001/City-Gym">
-    <img src="https://avatars.githubusercontent.com/u/83977672?v=4" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/83977672/153727530-d786d4b8-b491-4a46-9527-6e9f4024b605.png" alt="responsive image of City Gym Website">
   </a>
 </div>
 
